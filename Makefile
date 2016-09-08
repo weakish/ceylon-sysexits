@@ -4,8 +4,10 @@ build:
 	@ant compile
 # `process.exit` returns `Nothing`.
 
-doc:
-	@ant doc
+build-doc:
+	@ceylon doc `ceylon version` --resource-folder=resources
+
+doc: build build-doc
 
 run-test:
 	@ceylon test `ceylon version`
