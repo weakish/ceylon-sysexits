@@ -15,7 +15,7 @@ Download the car file at [Releases] and put it in ceylon module repository.
 Contribute
 ----------
 
-Send pull requests at <https://github.com/weakish/ceylon-systexts
+Send pull requests at <https://github.com/weakish/ceylon-systexts>
 
 License
 -------
