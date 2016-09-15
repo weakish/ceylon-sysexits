@@ -1,5 +1,7 @@
 """Maps sysexits.h to Ceylon exceptions, except `EX_OK`.
 
+   All exceptions extend [[SysexitsException]].
+
    ```
    #define EX_USAGE        64      /* command line usage error */
    #define EX_DATAERR      65      /* data format error */
