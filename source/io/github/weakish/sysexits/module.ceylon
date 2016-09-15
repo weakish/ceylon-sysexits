@@ -41,4 +41,4 @@
 """
 by ("Jakukyo Friel")
 license ("0BSD")
-module io.github.weakish.sysexits "0.0.0" {}
+module io.github.weakish.sysexits "0.1.0" {}
