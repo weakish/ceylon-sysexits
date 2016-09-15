@@ -1,6 +1,8 @@
 "Super classes of all sysexits exceptions."
 shared abstract class SysexitsException(message) extends Exception(message) {
+    "Description for Exception(message)."
     shared actual String message;
+    "exit code specified in sysexits.h"
     shared formal Integer exit_code;
 }
 
